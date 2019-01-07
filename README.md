@@ -1,7 +1,7 @@
 
 # Protein Peeling
 
-The objectif of this tool is to divide a protein into small compact units that compose protein three-dimensional structures. These fragments, called protein units (PU), are a new level of description to well understand and analyze the organization of protein structures defined by Jean-Christophe Gelly's team.  
+The objective of this tool is to divide a protein into small compact units that compose protein three-dimensional structures. These fragments, called protein units (PU), are a new level of description to well understand and analyze the organization of protein structures defined by Jean-Christophe Gelly's team.  
 
 The method only works from the contact probability matrix of inter-Calpha distances. Distances are transformed into probabilities with a logistic function. The original programm split the protein by hierarchical clustering.  
 
