@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module ProteinPeeling</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>ProteinPeeling</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/soniamai/m2_bioinfo/Protein_Peeling/ProteinPeeling.py">/home/soniamai/m2_bioinfo/Protein_Peeling/ProteinPeeling.py</a></font></td></tr></table>
+    <p><tt>#------------------MASTER&nbsp;PROJECT&nbsp;:&nbsp;PROTEIN&nbsp;PEELING&nbsp;----------------------&nbsp;#<br>
+#--------------------&nbsp;TIEO&nbsp;SONIA&nbsp;-&nbsp;M2BI&nbsp;-----------------------------------#</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="Bio.html">Bio</a><br>
+<a href="glob.html">glob</a><br>
+<a href="numpy.html">numpy</a><br>
+</td><td width="25%" valign=top><a href="os.html">os</a><br>
+<a href="matplotlib.patches.html">matplotlib.patches</a><br>
+<a href="pandas.html">pandas</a><br>
+</td><td width="25%" valign=top><a href="matplotlib.pyplot.html">matplotlib.pyplot</a><br>
+<a href="pylab.html">pylab</a><br>
+<a href="subprocess.html">subprocess</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+<a href="time.html">time</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="Bio.PDB.PDBIO.html#Select">Bio.PDB.PDBIO.Select</a>(<a href="builtins.html#object">builtins.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ProteinPeeling.html#ResSelect">ResSelect</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ResSelect">class <strong>ResSelect</strong></a>(<a href="Bio.PDB.PDBIO.html#Select">Bio.PDB.PDBIO.Select</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Cut&nbsp;and&nbsp;Save&nbsp;PDB&nbsp;between&nbsp;start&nbsp;res&nbsp;and&nbsp;end&nbsp;res<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ProteinPeeling.html#ResSelect">ResSelect</a></dd>
+<dd><a href="Bio.PDB.PDBIO.html#Select">Bio.PDB.PDBIO.Select</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="ResSelect-accept_residue"><strong>accept_residue</strong></a>(self, res)</dt><dd><tt>Overload&nbsp;this&nbsp;to&nbsp;reject&nbsp;residues&nbsp;for&nbsp;output.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="Bio.PDB.PDBIO.html#Select">Bio.PDB.PDBIO.Select</a>:<br>
+<dl><dt><a name="ResSelect-__repr__"><strong>__repr__</strong></a>(self)</dt><dd><tt>Represent&nbsp;the&nbsp;output&nbsp;as&nbsp;a&nbsp;string&nbsp;for&nbsp;debugging.</tt></dd></dl>
+
+<dl><dt><a name="ResSelect-accept_atom"><strong>accept_atom</strong></a>(self, atom)</dt><dd><tt>Overload&nbsp;this&nbsp;to&nbsp;reject&nbsp;atoms&nbsp;for&nbsp;output.</tt></dd></dl>
+
+<dl><dt><a name="ResSelect-accept_chain"><strong>accept_chain</strong></a>(self, chain)</dt><dd><tt>Overload&nbsp;this&nbsp;to&nbsp;reject&nbsp;chains&nbsp;for&nbsp;output.</tt></dd></dl>
+
+<dl><dt><a name="ResSelect-accept_model"><strong>accept_model</strong></a>(self, model)</dt><dd><tt>Overload&nbsp;this&nbsp;to&nbsp;reject&nbsp;models&nbsp;for&nbsp;output.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="Bio.PDB.PDBIO.html#Select">Bio.PDB.PDBIO.Select</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-add_start_end_PUs"><strong>add_start_end_PUs</strong></a>(all_PUs, contact_map)</dt><dd><tt>Add&nbsp;first&nbsp;and&nbsp;end&nbsp;of&nbsp;residus&nbsp;in&nbsp;list&nbsp;of&nbsp;all&nbsp;Pus<br>
+all_PUs:&nbsp;list&nbsp;of&nbsp;all&nbsp;PUs&nbsp;combination<br>
+contact_map:&nbsp;numpy.ndarray<br>
+Returns&nbsp;new&nbsp;list&nbsp;of&nbsp;all&nbsp;PUs&nbsp;combination</tt></dd></dl>
+ <dl><dt><a name="-all_PI_in_dict"><strong>all_PI_in_dict</strong></a>(contact_map, dssp_dict, min_size_PU=10, max_size_PU=50)</dt><dd><tt>Stock&nbsp;all&nbsp;start&nbsp;residus&nbsp;a&nbsp;with&nbsp;liste&nbsp;of&nbsp;PI&nbsp;values<br>
+contact_map:&nbsp;numpy.ndarray<br>
+dssp_dict:&nbsp;dict&nbsp;of&nbsp;secondary&nbsp;structure<br>
+min_size_PU,&nbsp;max_size_PU&nbsp;:&nbsp;int<br>
+Returns:&nbsp;Dict&nbsp;with&nbsp;start&nbsp;res&nbsp;a&nbsp;as&nbsp;key&nbsp;and&nbsp;a&nbsp;list&nbsp;of&nbsp;PI&nbsp;for&nbsp;each&nbsp;end&nbsp;res</tt></dd></dl>
+ <dl><dt><a name="-best_split"><strong>best_split</strong></a>(all_PUs_sigma, all_PUs_kappa)</dt><dd><tt>Give&nbsp;index&nbsp;of&nbsp;best&nbsp;protein&nbsp;splitting&nbsp;and&nbsp;write&nbsp;file&nbsp;with&nbsp;ranking&nbsp;splitting<br>
+all_PUs_sigma&nbsp;:&nbsp;list&nbsp;of&nbsp;list&nbsp;of&nbsp;sigmas&nbsp;of&nbsp;all&nbsp;PUs&nbsp;combination<br>
+all_PUs_kappa&nbsp;:&nbsp;list&nbsp;of&nbsp;list&nbsp;of&nbsp;kappas&nbsp;of&nbsp;all&nbsp;PUs&nbsp;combination<br>
+Returns&nbsp;:&nbsp;int&nbsp;index&nbsp;of&nbsp;the&nbsp;best&nbsp;combination</tt></dd></dl>
+ <dl><dt><a name="-calc_PI_ab"><strong>calc_PI_ab</strong></a>(contact_map, a, b, dict_ss)</dt><dd><tt>Calcul&nbsp;PI&nbsp;for&nbsp;given&nbsp;residue&nbsp;number&nbsp;a&nbsp;and&nbsp;d<br>
+contact_map:&nbsp;numpy.ndarray<br>
+a,b&nbsp;:&nbsp;int&nbsp;residues&nbsp;number<br>
+dict_ss:&nbsp;dict&nbsp;of&nbsp;secondary&nbsp;structure<br>
+Returns:&nbsp;float&nbsp;PI&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-calc_dist_matrix"><strong>calc_dist_matrix</strong></a>(chain_one, chain_two, dict_ss)</dt><dd><tt>Matrix&nbsp;of&nbsp;C-alpha&nbsp;distances&nbsp;between&nbsp;two&nbsp;same&nbsp;chain<br>
+chain_one,chain_two:&lt;class&nbsp;'Bio.PDB.Chain.Chain'&gt;<br>
+dict_ss:dict&nbsp;structure&nbsp;of&nbsp;each&nbsp;residue<br>
+Returns:numpy.ndarray&nbsp;Distance&nbsp;Matrix</tt></dd></dl>
+ <dl><dt><a name="-calc_kappa_decoup"><strong>calc_kappa_decoup</strong></a>(PUs)</dt><dd><tt>Calculate&nbsp;sigma&nbsp;for&nbsp;a&nbsp;given&nbsp;all&nbsp;PUs&nbsp;in&nbsp;given&nbsp;list<br>
+PUs:&nbsp;list&nbsp;of&nbsp;res&nbsp;number&nbsp;that&nbsp;delimited&nbsp;a&nbsp;PU<br>
+Returns:&nbsp;list&nbsp;kappa&nbsp;values</tt></dd></dl>
+ <dl><dt><a name="-calc_residue_dist"><strong>calc_residue_dist</strong></a>(residue_one, residue_two)</dt><dd><tt>C-alpha&nbsp;distance&nbsp;between&nbsp;two&nbsp;residues.<br>
+residue_one,&nbsp;residue_two:&nbsp;&lt;class&nbsp;'Bio.PDB.Residue.Residue'&gt;<br>
+Returns:&nbsp;int&nbsp;C-alpha&nbsp;distance</tt></dd></dl>
+ <dl><dt><a name="-calc_sigma_decoup"><strong>calc_sigma_decoup</strong></a>(PUs)</dt><dd><tt>Calculate&nbsp;sigma&nbsp;for&nbsp;a&nbsp;given&nbsp;all&nbsp;PUs&nbsp;in&nbsp;given&nbsp;list<br>
+PUs:&nbsp;list&nbsp;of&nbsp;res&nbsp;number&nbsp;that&nbsp;delimited&nbsp;a&nbsp;PU<br>
+Returns:&nbsp;list&nbsp;sigma&nbsp;values</tt></dd></dl>
+ <dl><dt><a name="-chunks"><strong>chunks</strong></a>(l, n)</dt><dd><tt>Yield&nbsp;successive&nbsp;n-sized&nbsp;chunks&nbsp;from&nbsp;l.</tt></dd></dl>
+ <dl><dt><a name="-combis_PU"><strong>combis_PU</strong></a>(dict_PI_max)</dt><dd><tt>Combi&nbsp;of&nbsp;PU&nbsp;with&nbsp;maxs_PI_in_dict</tt></dd></dl>
+ <dl><dt><a name="-dist_to_proba"><strong>dist_to_proba</strong></a>(d)</dt><dd><tt>Transform&nbsp;a&nbsp;distance&nbsp;to&nbsp;contact&nbsp;probability&nbsp;(logistic&nbsp;transformation)<br>
+d:int<br>
+Returns:int&nbsp;probability</tt></dd></dl>
+ <dl><dt><a name="-is_in_ss"><strong>is_in_ss</strong></a>(a, dict_ss)</dt><dd><tt>Return&nbsp;True&nbsp;if&nbsp;amino&nbsp;acid&nbsp;is&nbsp;in&nbsp;Secondary&nbsp;Structure</tt></dd></dl>
+ <dl><dt><a name="-make_liste_PI"><strong>make_liste_PI</strong></a>(dict_PI_max, PUs)</dt><dd><tt>List&nbsp;PI&nbsp;for&nbsp;all&nbsp;PUs&nbsp;in&nbsp;combination<br>
+dict_PI_max&nbsp;:&nbsp;dict&nbsp;with&nbsp;starting&nbsp;res&nbsp;as&nbsp;key&nbsp;and&nbsp;tuple&nbsp;(ending&nbsp;res,PI)&nbsp;as&nbsp;value<br>
+PUs&nbsp;:&nbsp;list&nbsp;of&nbsp;PUs<br>
+Returns:&nbsp;list&nbsp;of&nbsp;PUs</tt></dd></dl>
+ <dl><dt><a name="-maxs_PI_in_dict"><strong>maxs_PI_in_dict</strong></a>(dict_PI)</dt><dd><tt><a href="Bio.PDB.PDBIO.html#Select">Select</a>&nbsp;all&nbsp;max&nbsp;PI&nbsp;in&nbsp;range&nbsp;of&nbsp;5&nbsp;for&nbsp;each&nbsp;start</tt></dd></dl>
+ <dl><dt><a name="-new_combis_PU"><strong>new_combis_PU</strong></a>(dict_PI_max, min_size_PU=10, max_size_PU=50)</dt><dd><tt>Make&nbsp;combination&nbsp;of&nbsp;PU&nbsp;with&nbsp;new_max_PI_in_dict<br>
+dict_PI_max:&nbsp;dict&nbsp;with&nbsp;starting&nbsp;res&nbsp;as&nbsp;key&nbsp;and&nbsp;tuple&nbsp;(ending&nbsp;res,)&nbsp;as&nbsp;value<br>
+Returns:&nbsp;list&nbsp;with&nbsp;all&nbsp;combination&nbsp;of&nbsp;splitting</tt></dd></dl>
+ <dl><dt><a name="-new_max_PI_in_dict"><strong>new_max_PI_in_dict</strong></a>(dict_PI)</dt><dd><tt><a href="Bio.PDB.PDBIO.html#Select">Select</a>&nbsp;unique&nbsp;max&nbsp;PI&nbsp;for&nbsp;each&nbsp;starting&nbsp;res<br>
+Returns:&nbsp;dict&nbsp;with&nbsp;starting&nbsp;res&nbsp;as&nbsp;key&nbsp;and&nbsp;tuple&nbsp;(ending&nbsp;res,)&nbsp;as&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-plot_contact_map"><strong>plot_contact_map</strong></a>(choix)</dt><dd><tt>Plot&nbsp;contact&nbsp;map&nbsp;for&nbsp;the&nbsp;best&nbsp;split<br>
+choix&nbsp;:&nbsp;list&nbsp;of&nbsp;PUs&nbsp;of&nbsp;best&nbsp;the&nbsp;best&nbsp;split</tt></dd></dl>
+ <dl><dt><a name="-plot_criteria"><strong>plot_criteria</strong></a>(PU)</dt><dd><tt>PLot&nbsp;sigma,&nbsp;kappa,&nbsp;PI&nbsp;of&nbsp;PUs&nbsp;for&nbsp;each&nbsp;combination<br>
+PU&nbsp;:&nbsp;list&nbsp;of&nbsp;a&nbsp;PUs&nbsp;combination&nbsp;in&nbsp;all&nbsp;PUs&nbsp;combinations</tt></dd></dl>
+ <dl><dt><a name="-save_plot_allPI"><strong>save_plot_allPI</strong></a>(dict_PI, pdb_code, max_size_PU)</dt><dd><tt>Plot&nbsp;and&nbsp;save&nbsp;Pi&nbsp;values&nbsp;for&nbsp;each&nbsp;starting&nbsp;res<br>
+dict_PI&nbsp;:&nbsp;dict&nbsp;all&nbsp;PUs&nbsp;values<br>
+pdb_code&nbsp;:&nbsp;str<br>
+max_size_PU&nbsp;:&nbsp;max&nbsp;size&nbsp;for&nbsp;a&nbsp;PU</tt></dd></dl>
+ <dl><dt><a name="-ss_dict"><strong>ss_dict</strong></a>(model, pdb_filename)</dt><dd><tt>Secondary&nbsp;structure&nbsp;assigned&nbsp;by&nbsp;DSSP.<br>
+model:&lt;class&nbsp;'Bio.PDB.Model.Model'&gt;<br>
+pdb_filename:str&nbsp;path&nbsp;and&nbsp;pdb&nbsp;file<br>
+Returns:dict&nbsp;structure&nbsp;of&nbsp;each&nbsp;residue</tt></dd></dl>
+ <dl><dt><a name="-test_next_PU"><strong>test_next_PU</strong></a>(dict_PI_max, k)</dt></dl>
+ <dl><dt><a name="-write_pdb_all_split"><strong>write_pdb_all_split</strong></a>(all_PUs)</dt><dd><tt>Split&nbsp;PDB&nbsp;per&nbsp;PUs&nbsp;and&nbsp;write&nbsp;PDB&nbsp;for&nbsp;each&nbsp;PU<br>
+all_PUs&nbsp;:&nbsp;all&nbsp;PUs&nbsp;combination</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>CWD</strong> = '/home/soniamai/m2_bioinfo/Protein_Peeling'<br>
+<strong>D0</strong> = 8.0<br>
+<strong>DELTA</strong> = 1.5</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Sonia&nbsp;Tieo</td></tr></table>
+</body></html>
